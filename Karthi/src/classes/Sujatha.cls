@@ -1,7 +1,7 @@
 public class Sujatha {
 public void displayRemoteRepo()
 {
-  System.debug('Remote repo v4');
+  System.debug('Remote repo v6');
   
 }
 }
