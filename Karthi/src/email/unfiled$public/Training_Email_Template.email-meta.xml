@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Dress_Email_Alert</letterhead>
+    <name>Training Email Template</name>
+    <style>formalLetter</style>
+    <subject>Welcome to Training</subject>
+    <textOnly>Welcome</textOnly>
+    <type>html</type>
+</EmailTemplate>

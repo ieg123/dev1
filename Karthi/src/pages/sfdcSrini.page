@@ -1,0 +1,28 @@
+<apex:page standardController="Account" >
+    <apex:form id="changeStatusForm">
+        <apex:pageBlock >
+          <apex:pageblocksection title="Account Information">
+               <apex:inputfield value="{!account.name}"/>
+               <apex:inputfield value="{!account.accountnumber}"/>
+              
+               <apex:inputfield value="{!account.rating}"/>
+               <apex:inputfield value="{!account.industry}"/>
+                <apex:inputhidden value="{!account.accountNumber}"/>
+        </apex:pageblocksection>
+        <apex:pageblocksection title="Category Information">
+             <apex:inputfield value="{!account.type}"/>
+             <apex:inputfield value="{!account.AnnualRevenue}"/>
+        </apex:pageblocksection>
+        <apex:pageBlockButtons >
+             <apex:commandButton value="Save" action="{!save}"/>
+             <apex:commandLink action="{!save}" value="Save" id="theCommandLink"/>  &nbsp;
+             <apex:outputLink value="https://www.salesforce.com">www.salesforce.com</apex:outputLink>            
+        </apex:pageBlockButtons>
+        <apex:pageBlockSection title="My Content Section" columns="2">
+                <apex:inputField value="{!account.name}"/>
+                <apex:inputField value="{!account.type}"/>
+               <apex:inputsecret value="{!account.accountNumber}"/>
+            </apex:pageBlockSection>
+       </apex:pageBlock>
+    </apex:form>
+</apex:page>

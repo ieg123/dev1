@@ -1,0 +1,1 @@
+﻿alert("sample Java script");

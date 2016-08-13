@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Training</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Training</value>
+    </caseValues>
+    <fields>
+        <help><!-- No Of  Batch --></help>
+        <label><!-- Batch No --></label>
+        <name>Batch_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>MBA</masterLabel>
+            <translation><!-- MBA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCA</masterLabel>
+            <translation><!-- MCA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Course --></label>
+        <name>Course__c</name>
+        <picklistValues>
+            <masterLabel>.Net</masterLabel>
+            <translation><!-- .Net --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR</masterLabel>
+            <translation><!-- HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Java</masterLabel>
+            <translation><!-- Java --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle</masterLabel>
+            <translation><!-- Oracle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PHP</masterLabel>
+            <translation><!-- PHP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDC</masterLabel>
+            <translation><!-- SFDC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone Number --></label>
+        <name>Phone_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Student --></label>
+        <name>Stident__c</name>
+        <relationshipLabel><!-- Training --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Student Mail --></label>
+        <name>Student_Mail__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Name --></label>
+        <name>User_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>status__c</name>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Started</masterLabel>
+            <translation><!-- Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>completed</masterLabel>
+            <translation><!-- completed --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Training Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Phone Number &amp;&amp; Currency should be Required. --></errorMessage>
+        <name>Training_Phone_No_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,9 @@
+<apex:page standardController="Lead" recordSetVar="Leads">
+     <apex:pageBlock title="dataTable">
+         <apex:dataTable value="{!Leads}" var="le" width="90%">
+             <apex:column value="{!le.name}"  headerValue="Name"/> 
+             <apex:column value="{!le.Phone}" headerValue="Phone"/>
+             <apex:column value="{!le.Company}" headerValue="Company"/>
+         </apex:dataTable> 
+     </apex:pageBlock> 
+ </apex:page>

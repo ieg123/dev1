@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Dress</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Dresss</value>
+    </caseValues>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>1.Mens Wear</masterLabel>
+            <translation><!-- 1.Mens Wear --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.Womens Wear</masterLabel>
+            <translation><!-- 2.Womens Wear --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.Kids Wear</masterLabel>
+            <translation><!-- 3.Kids Wear --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- E mail --></label>
+        <name>E_mail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Category --></label>
+        <name>Sub_Category__c</name>
+        <picklistValues>
+            <masterLabel>1.Casuals-K</masterLabel>
+            <translation><!-- 1.Casuals-K --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.Casuals-M</masterLabel>
+            <translation><!-- 1.Casuals-M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.Casuals-W</masterLabel>
+            <translation><!-- 1.Casuals-W --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.Westren-K</masterLabel>
+            <translation><!-- 2.Westren-K --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.Westren-M</masterLabel>
+            <translation><!-- 2.Westren-M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.Westren-W</masterLabel>
+            <translation><!-- 2.Westren-W --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.Ethnic-K</masterLabel>
+            <translation><!-- 3.Ethnic-K --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.Ethnic-M</masterLabel>
+            <translation><!-- 3.Ethnic-M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.Ethnic_W</masterLabel>
+            <translation><!-- 3.Ethnic_W --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

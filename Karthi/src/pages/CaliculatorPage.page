@@ -1,0 +1,28 @@
+<apex:page controller="Caluculator">
+<apex:form id="CalForm">
+<apex:pageBlock >
+<apex:pageBlockSection title="Addition">
+<apex:outputLabel >First Param</apex:outputLabel>
+<apex:inputText value="{!param1 }" id="param1"/>
+<apex:outputLabel >Second Param</apex:outputLabel>
+<apex:inputText value="{!param2}" id="param2"/>
+</apex:pageBlockSection>
+
+<apex:pageBlockButtons >
+      
+<apex:commandButton value="Add" action="{!add}"/>
+  
+      </apex:pageBlockButtons>     
+</apex:pageBlock>
+
+<apex:pageBlock >
+<apex:pageBlockSection title="Addition">
+<apex:outputLabel value="{!result}"></apex:outputLabel>
+</apex:pageBlockSection>
+<apex:pageBlockButtons >      
+
+  
+      </apex:pageBlockButtons>     
+</apex:pageBlock>
+</apex:form>
+</apex:page>

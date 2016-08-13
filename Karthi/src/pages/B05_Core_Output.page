@@ -1,0 +1,28 @@
+<apex:page standardController="Account" tabStyle="Account">
+<apex:form id="fm">
+<apex:pageBlock > 
+<apex:pageBlockSection title="Account Information"> 
+<apex:outputField value="{!account.name}"/>
+<apex:outputField value="{!account.Active__c}"/>
+<apex:outputField value="{!account.Site}"/>
+
+
+<apex:outputText style="font-style:italic" value="{!account.name}"> </apex:outputText>
+<apex:outputText style="font-style:italic" value="This is {0} text with {1}."> 
+<apex:param value="my"/> 
+ <apex:param value="arguments"/>
+ </apex:outputText>
+ 
+ 
+ <apex:outputLabel value="ACC Name" for="theName"/>
+ 
+<apex:inputtext value="{!account.name}" id="theName"/>
+
+<apex:outputPanel id="thePanelSpan">My span</apex:outputPanel>
+
+<apex:outputPanel id="thePanelDiv" layout="block">div or span depending on the value of the layout attribute.</apex:outputPanel>
+
+</apex:pageBlockSection>
+</apex:pageBlock>
+</apex:form>
+</apex:page>
